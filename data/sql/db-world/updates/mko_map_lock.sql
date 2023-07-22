@@ -1,8 +1,6 @@
-CREATE TABLE IF NOT EXISTS `map_lock` (
-  `id` tinyint(3) UNSIGNED NOT NULL AUTO_INCREMENT,
+CREATE TABLE IF NOT EXISTS `mko_map_lock` (
   `mapId` smallint(6) UNSIGNED DEFAULT NULL,
   `zoneID` smallint(6) UNSIGNED DEFAULT NULL,
   `comment` varchar(255) DEFAULT '',
-  PRIMARY KEY (`id`),
   CONSTRAINT `MKO_Map` UNIQUE (`mapId`, `zoneID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;

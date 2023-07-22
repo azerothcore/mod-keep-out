@@ -15,7 +15,7 @@ Module for azerothcore to keep players who are non gm entering a zone/map
 
 1. Simply place the module under the `modules` folder of your AzerothCore source folder.
 2. Re-run cmake and launch a clean build of AzerothCore
-3. Import the SQL manually or with the `db_assembler.sh`
+3. Run the `worldserver` and `authserver`, so that the changes are applied to the database.
 
 ## Usage
 
