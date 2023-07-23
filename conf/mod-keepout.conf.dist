@@ -20,7 +20,23 @@ KeepOutEnabled = 1
 #
 #    MaxWarnings
 #        Description: MaxWarnings before the player gets kicked from the server
-#        Default:     Enabled  = 3
+#        Default: 3
 #
 
 MaxWarnings = 3
+
+#
+#   KeepOutTeleportEnabled
+#        Description: Enables the player to be teleported
+#        Default: 1 (Enabled)
+#
+
+KeepOutTeleportEnabled = 1
+
+#
+#   KeepOutKickPlayerEnabled
+#        Description: Allows to expel the player
+#        Default: 1 (Enabled)
+#
+
+KeepOutKickPlayerEnabled = 1

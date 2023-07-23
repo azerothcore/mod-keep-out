@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `mko_map_lock` (
+CREATE TABLE IF NOT EXISTS `mod_mko_map_lock` (
   `mapId` smallint(6) UNSIGNED DEFAULT NULL,
   `zoneID` smallint(6) UNSIGNED DEFAULT NULL,
   `comment` varchar(255) DEFAULT '',
