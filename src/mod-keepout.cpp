@@ -91,7 +91,7 @@ class KeepOutPlayerScript : public PlayerScript
 public:
     KeepOutPlayerScript() : PlayerScript("KeepOutPlayerScript") { }
 
-    void OnLogin(Player* player) override
+    void OnPlayerLogin(Player* player) override
     {
         if (sConfigMgr->GetOption<bool>("Announcer.Enable", true))
         {
@@ -99,7 +99,7 @@ public:
         }
     }
 
-    void OnUpdateZone(Player* player, uint32 /*newZone*/,  uint32 /*newArea*/) override
+    void OnPlayerUpdateZone(Player* player, uint32 /*newZone*/,  uint32 /*newArea*/) override
     {
         if (mko.keepOutEnabled)
         {
